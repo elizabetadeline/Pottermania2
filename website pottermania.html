@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pottermania</title>
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background-color: #fff;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+        }
+
+        .profile-info {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .profile-info img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .profile-details {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .profile-details h3 {
+            margin-bottom: 10px;
+        }
+
+        .profile-details p {
+            margin-bottom: 5px;
+        }
+
+        .activity-item {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .quiz {
+            background-color: #f9f9f9;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .quiz h3 {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Pottermania</h1>
+    </header>
+
+    <nav>
+        <a href="profile.html">Profile</a>
+        <a href="#friends">Friends</a>
+        <a href="#activities">Activities</a>
+        <a href="#photos">Photos</a>
+    </nav>
+
+    <main>
+        <section id="profile">
+            <h2>Profile</h2>
+            <div class="profile-info">
+                <img src="image5.jpg" alt="Profile Picture">
+                <div class="profile-details">
+                    <h3>Your Name</h3>
+                    <p>Email: adelinedaniel818@gmail.com</p>
+                    <p>Location: Yogyakarta, Indonesia</p>
+                    <p>Bio: A dedicated Harry Potter fan, immersed in the magical world of J.K Rowling. Whether it's reliving the magic through the books, movies or exploring the intricate details of the wizarding world, I find joy in every aspect of the Harry Potter universe.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="friends">
+            <h2>Friends</h2>
+            <!-- Friends list and friend-related features can be added here -->
+        </section>
+
+        <section id="activities">
+            <h2>Activities</h2>
+            <div class="activity-item quiz">
+                <h3>Harry Potter Quiz</h3>
+                <p>Test your knowledge about Harry Potter with this quiz!</p>
+                <!-- Add quiz questions and options here -->
+            </div>
+            <div class="activity-item">
+                <h3>Trivia of the Day</h3>
+                <p>Did you know? [Interesting fact about Harry Potter]</p>
+                <!-- Add more trivia or daily facts here -->
+            </div>
+        </section>
+
+        <section id="photos">
+            <h2>Photos</h2>
+            <div class="gallery">
+                <img src="image11.jpg" alt="Image 1">
+                <img src="image2.jpg" alt="Image 2">
+                <img src="image4.jpg" alt="Image 3">
+                <!-- Add more images here -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        &copy; 2024 Pottermania. All rights reserved.
+    </footer>
+</body>
+</html>
